@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "titulek": "Návrh 4CX250B PA pro pásmo 144 MHz",
+        "kategorie": "technika",
+        "datum": "2026-01-15",
+        "obsah": "Kompletní dokumentace k výrobě výkonového zesilovače s elektronkou 4CX250B včetně měření.\n\nZesilovač je navržen pro výkon 400W na pásmu 2m. Konstrukce využívá osvědčené řešení s dutinovou rezonancí.\n\n## Parametry\n- Vstupní výkon: 10-25W\n- Výstupní výkon: 400W\n- Napájecí napětí: 2000V / 300V\n- Účinnost: cca 60%\n\n## Konstrukce\nZákladem je hliníkové šasi s měděnou dutinou. Chlazení zajišťuje ventilátor 120mm.\n\nPodrobné schéma a DPS jsou k dispozici ke stažení.",
+        "obrazek": "https://via.placeholder.com/800x450/151c25/8b9db5?text=4CX250B+PA"
+    },
+    {
+        "id": 2,
+        "titulek": "Automatizace logu pomocí N1MM a Python",
+        "kategorie": "technika",
+        "datum": "2026-01-08",
+        "obsah": "Jak propojit N1MM Logger s vlastními skripty pro real-time statistiky v závodech.\n\nN1MM Logger umožňuje broadcast UDP paketů s informacemi o QSO. Tyto pakety lze snadno zachytit v Pythonu a zpracovat.\n\n## Základní skript\n```python\nimport socket\n\nUDP_IP = \"127.0.0.1\"\nUDP_PORT = 12060\n\nsock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)\nsock.bind((UDP_IP, UDP_PORT))\n\nwhile True:\n    data, addr = sock.recvfrom(1024)\n    print(data.decode())\n```\n\nTento skript zachytává všechny zprávy z N1MM a vypisuje je na konzoli.",
+        "obrazek": "https://via.placeholder.com/800x450/151c25/8b9db5?text=N1MM+Python"
+    },
+    {
+        "id": 3,
+        "titulek": "Optimalizace stack antén pro DX",
+        "kategorie": "technika",
+        "datum": "2025-12-22",
+        "obsah": "Praktické zkušenosti s vertikálním stackem 2×5el Yagi a měření zisku.\n\nStack antén přináší významné zlepšení signálu zejména pro DX spojení. V tomto článku popisuji své zkušenosti s realizací stacku dvou pětiprvkových Yagi antén.\n\n## Měření\nPoužil jsem miniVNA pro měření SWR a NanoVNA pro impedanci. Zisk stacku oproti jedné anténě byl měřen přibližně 2.8 dB.\n\n## Závěr\nStack se rozhodně vyplatí, pokud máte dostatečnou výšku stožáru.",
+        "obrazek": "https://via.placeholder.com/800x450/151c25/8b9db5?text=Stack+Anteny"
+    },
+    {
+        "id": 4,
+        "titulek": "Svalbard JW/OK2ZI - přípravy",
+        "kategorie": "expedice",
+        "datum": "2026-01-20",
+        "obsah": "Přípravy na expedici na Svalbard plánovanou na březen 2026.\n\n## Plán\n- Termín: 10.-17. března 2026\n- QTH: Longyearbyen\n- Pásma: 40m, 20m, 15m, 10m\n- Módy: FT8, CW, SSB\n\n## Vybavení\n- Icom IC-7300\n- Elecraft KPA500\n- Hexbeam anténa\n- Vertikál pro 40m\n\nExpedice je částečně sponzorována firmou ICOM. Děkujeme za podporu!",
+        "obrazek": "https://via.placeholder.com/800x450/151c25/8b9db5?text=Svalbard+JW"
+    },
+    {
+        "id": 5,
+        "titulek": "Maroko CN/OK2ZI - report",
+        "kategorie": "expedice",
+        "datum": "2025-11-28",
+        "obsah": "Report z expedice do Maroka během CQWW CW Contestu 2025.\n\n## Statistiky\n- QSO celkem: 2847\n- DXCC: 124\n- Zóny: 38\n- Kategorie: Multi-Single\n\n## QTH\nOperovali jsme z lokality poblíž Casablanky s výhledem na oceán. Podmínky byly výborné zejména na 15m a 10m.\n\n## Vybavení\n- 2x Icom IC-7610\n- Acom 1500\n- 3el SteppIR\n- 4-square na 40m\n\nDěkujeme všem za QSO! QSL via LoTW a direct.",
+        "obrazek": "https://via.placeholder.com/800x450/151c25/8b9db5?text=Maroko+CN"
+    }
+]

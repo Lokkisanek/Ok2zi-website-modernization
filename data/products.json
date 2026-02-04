@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nazev": "LED Bargraph Display",
+        "cena": 450,
+        "popis": "Přesná indikace výkonu pro PA zesilovače. Kompatibilní s většinou transceiverů.",
+        "kategorie": "Indikátory",
+        "specifikace": {
+            "rozsah": "0-1000W",
+            "napajeni": "12V DC",
+            "rozmery": "100x30x15mm"
+        },
+        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=LED+Bargraph",
+        "skladem": true
+    },
+    {
+        "id": 2,
+        "nazev": "Stabilizátor G1",
+        "cena": 320,
+        "popis": "Precizní regulátor pro tetrody. Stabilita ±0.1V při zatížení do 2A.",
+        "kategorie": "Napájení",
+        "specifikace": {
+            "vstup": "15-35V DC",
+            "vystup": "12.6V / 2A",
+            "rozmery": "60x40x20mm"
+        },
+        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=Stabilizator+G1",
+        "skladem": true
+    },
+    {
+        "id": 3,
+        "nazev": "Stackmatch Controller",
+        "cena": 890,
+        "popis": "Řízení dvou KV antén s automatickým přepínáním. Rozsah 1.8–30 MHz.",
+        "kategorie": "Antény",
+        "specifikace": {
+            "vykon": "max 1500W PEP",
+            "impedance": "50Ω",
+            "konektory": "SO-239"
+        },
+        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=Stackmatch",
+        "skladem": true
+    },
+    {
+        "id": 4,
+        "nazev": "Anténní tuner QRP",
+        "cena": 580,
+        "popis": "Kompaktní manuální tuner pro QRP provoz do 25W. L-článek s variabilní kapacitou.",
+        "kategorie": "Antény",
+        "specifikace": {
+            "vykon": "max 25W",
+            "rozsah": "3.5-30 MHz",
+            "rozmery": "80x60x40mm"
+        },
+        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=QRP+Tuner",
+        "skladem": false
+    },
+    {
+        "id": 5,
+        "nazev": "SWR/PWR metr",
+        "cena": 650,
+        "popis": "Křížový wattmetr s LED indikací SWR a výkonu. Přesné měření 1.8-54 MHz.",
+        "kategorie": "Měřicí přístroje",
+        "specifikace": {
+            "rozsah_vykonu": "0-300W / 0-3000W",
+            "frekvence": "1.8-54 MHz",
+            "napajeni": "12V DC"
+        },
+        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=SWR+Metr",
+        "skladem": true
+    },
+    {
+        "id": 6,
+        "nazev": "Bias regulátor pro GU-74B",
+        "cena": 420,
+        "popis": "Stabilizovaný zdroj předpětí pro elektronku GU-74B s ochranou proti přetížení.",
+        "kategorie": "Napájení",
+        "specifikace": {
+            "vystup": "-45V až -65V",
+            "proud": "max 50mA",
+            "ochrana": "proudová a tepelná"
+        },
+        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=Bias+GU74B",
+        "skladem": true
+    }
+]
