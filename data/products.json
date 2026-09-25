@@ -10,7 +10,7 @@
             "napajeni": "12V DC",
             "rozmery": "100x30x15mm"
         },
-        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=LED+Bargraph",
+        "obrazek": "assets/image.png",
         "skladem": true
     },
     {
@@ -24,7 +24,7 @@
             "vystup": "12.6V / 2A",
             "rozmery": "60x40x20mm"
         },
-        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=Stabilizator+G1",
+        "obrazek": "assets/image2.png",
         "skladem": true
     },
     {
@@ -38,7 +38,7 @@
             "impedance": "50Ω",
             "konektory": "SO-239"
         },
-        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=Stackmatch",
+        "obrazek": "assets/image3.png",
         "skladem": true
     },
     {
@@ -52,7 +52,7 @@
             "rozsah": "3.5-30 MHz",
             "rozmery": "80x60x40mm"
         },
-        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=QRP+Tuner",
+        "obrazek": "assets/image4.png",
         "skladem": false
     },
     {
@@ -66,21 +66,7 @@
             "frekvence": "1.8-54 MHz",
             "napajeni": "12V DC"
         },
-        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=SWR+Metr",
-        "skladem": true
-    },
-    {
-        "id": 6,
-        "nazev": "Bias regulátor pro GU-74B",
-        "cena": 420,
-        "popis": "Stabilizovaný zdroj předpětí pro elektronku GU-74B s ochranou proti přetížení.",
-        "kategorie": "Napájení",
-        "specifikace": {
-            "vystup": "-45V až -65V",
-            "proud": "max 50mA",
-            "ochrana": "proudová a tepelná"
-        },
-        "obrazek": "https://via.placeholder.com/400x300/151c25/8b9db5?text=Bias+GU74B",
+        "obrazek": "assets/image5.png",
         "skladem": true
     }
 ]
